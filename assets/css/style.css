@@ -367,6 +367,61 @@ button.main-button:hover {
   background-color: #ff589e;
 }
 
+.vmButton{
+  font-size: 13px;
+  border-color: #fff;
+  border-radius: 20px;
+  padding: 12px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  align-items: center;
+}
+
+.vmButton:hover {
+  border-color: #ff589e;
+  background-color: #ff589e;
+  color: #fff;
+  
+}
+.vmButton:active {
+  border-color: #ff589e;
+  background-color: #ff589e;
+  color: #fff;
+}
+.proButton{
+      font-size: 13px;
+  border-color: #6f42c1;
+  border-radius: 20px;
+  padding: 12px 20px;
+  color: #6f42c1;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  align-items: center;
+    
+}
+
+.proButton:hover {
+  border-color: #ff589e;
+  background-color: #ff589e;
+  color: #fff;
+  
+}
+.vmButton:active {
+  border-color: #ff589e;
+  background-color: #ff589e;
+  color: #fff;
+}
 
 /* 
 ---------------------------------------------
