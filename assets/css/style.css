@@ -1014,6 +1014,11 @@ parallax & home seperator
   letter-spacing: .75px;
 }
 
+.mini .mini-content .mini-box img{
+  border: transparent 2px;
+  border-radius: 60px;
+}
+
 .mini .mini-content .mini-box strong {
   display: block;
   font-weight: 400;
