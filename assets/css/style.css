@@ -42,6 +42,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .clearfix:after {
   content: ".";
@@ -1616,6 +1619,40 @@ preloader
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
+
+
+/*  */
+#top-page{
+  margin: 0px;
+}
+
+#vis_arrow{
+  position: fixed;
+  right: 30px;
+  bottom: 25px;
+  font-size: 40px;
+  color: #ff589e;
+  z-index: 18;
+   
+}
+  
+#vis_arrow{
+  display: none;
+}
+@media only screen and (max-width:600px){
+  #vis_arrow{
+    font-size: 35px;
+    right: 25px;
+    bottom: 20px;
+  }
+}
+ 
+#vis_arrow i:hover{
+  text-decoration: cadetblue;
+  color:#8261ee;
+  text-shadow: 1px 1px 3px black;
+}
+
 
 @-webkit-keyframes jumper {
   0% {
